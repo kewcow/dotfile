@@ -1,0 +1,67 @@
+# Window Config
+window:
+  dynamic_padding: true
+  padding:
+    x: 3
+    y: 3
+  decorations: Full
+  opacity: .7
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+# Fonts
+font:
+  size: 14
+  normal:
+    family: JetBrains Mono semibold
+    style: italic
+
+# Colors Window
+colors:
+  primary:
+    background: '0x000000'
+    foreground: '0xfbf1c7'
+  normal:
+    black:   '0x2c323c'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xe5c07b'
+    blue:    '0x61afef'
+    magenta: '0xc678dd'
+    cyan:    '0x56b6c2'
+    white:   '0x5c6370'
+  bright:
+    black:   '0x928374'
+    red:     '0xfb4934'
+    green:   '0xb8bb26'
+    yellow:  '0xfabd2f'
+    blue:    '0x83a598'
+    magenta: '0xd3869b'
+    cyan:    '0x8ec07c'
+    white:   '0xebdbb2'
+
+  indexed_colors:
+    - { index: 16, color: '0xdc9656' }
+    - { index: 17, color: '0xa16946' }
+    - { index: 18, color: '0x282828' }
+    - { index: 19, color: '0x383838' }
+    - { index: 20, color: '0xb8b8b8' }
+    - { index: 21, color: '0xe8e8e8' }
+
+  selection:
+    text: '0xffffff'
+    white:   '0xffffff'
+    background: '0x3e4452'
+
+# Cursor
+cursor:
+  text: '0x2c323c'
+  cursor: '0x5c6370'
+  style:
+    shape: Beam
+
+# Keybind Config
+key_bindings:
+  - { key: V, mods: Control, action: Paste }
